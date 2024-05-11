@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18236D582BBFE407009C6CEB /* ModalResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18236D572BBFE407009C6CEB /* ModalResetView.swift */; };
+		18236D5A2BC11885009C6CEB /* RewardAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18236D592BC11885009C6CEB /* RewardAdView.swift */; };
+		18236D5C2BC118D8009C6CEB /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18236D5B2BC118D8009C6CEB /* BannerView.swift */; };
+		18236D702BC19A5A009C6CEB /* interstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18236D6F2BC19A5A009C6CEB /* interstitial.swift */; };
+		18416DF92BDA882E000B980F /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18416DF82BDA882E000B980F /* CalendarView.swift */; };
+		1842E8172BE0F25D00EB86D7 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842E8162BE0F25D00EB86D7 /* ProgressBar.swift */; };
+		1852AA252BAAED060022BD75 /* smallGaolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852AA242BAAED060022BD75 /* smallGaolApp.swift */; };
+		1852AA272BAAED060022BD75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852AA262BAAED060022BD75 /* ContentView.swift */; };
+		1852AA292BAAED070022BD75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1852AA282BAAED070022BD75 /* Assets.xcassets */; };
+		1852AA2D2BAAED070022BD75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1852AA2C2BAAED070022BD75 /* Preview Assets.xcassets */; };
+		1852AA372BAAED070022BD75 /* smallGaolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852AA362BAAED070022BD75 /* smallGaolTests.swift */; };
+		1852AA412BAAED070022BD75 /* smallGaolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852AA402BAAED070022BD75 /* smallGaolUITests.swift */; };
+		1852AA432BAAED070022BD75 /* smallGaolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852AA422BAAED070022BD75 /* smallGaolUITestsLaunchTests.swift */; };
+		1852AA502BAAF4EE0022BD75 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852AA4F2BAAF4EE0022BD75 /* GoalView.swift */; };
+		1852AA522BAAF5190022BD75 /* GoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1852AA512BAAF5190022BD75 /* GoalViewModel.swift */; };
+		1896A1FB2BAC584B0072F12B /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896A1FA2BAC584B0072F12B /* AddGoalView.swift */; };
+		1896A2072BADA8BC0072F12B /* CompletedGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896A2062BADA8BC0072F12B /* CompletedGoalsView.swift */; };
+		1896A2092BADB3D60072F12B /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896A2082BADB3D60072F12B /* AuthManager.swift */; };
+		1896A20B2BAE7E180072F12B /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896A20A2BAE7E180072F12B /* TopView.swift */; };
+		1896A20F2BAE8B490072F12B /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896A20E2BAE8B490072F12B /* SettingView.swift */; };
+		1896A2112BAE8B7F0072F12B /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896A2102BAE8B7F0072F12B /* TermsOfServiceView.swift */; };
+		1896A2132BAE8BAE0072F12B /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896A2122BAE8BAE0072F12B /* PrivacyView.swift */; };
+		1896A2152BAE96CF0072F12B /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896A2142BAE96CF0072F12B /* ContactView.swift */; };
+		1896A2172BAEE17A0072F12B /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896A2162BAEE17A0072F12B /* RewardView.swift */; };
+		1896A2192BAEE3AC0072F12B /* AddRewardVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896A2182BAEE3AC0072F12B /* AddRewardVIew.swift */; };
+		1896A21B2BAF163B0072F12B /* ModalRewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896A21A2BAF163B0072F12B /* ModalRewardView.swift */; };
+		1898ECD92BBC169F0085D467 /* HelpModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898ECD82BBC169F0085D467 /* HelpModalView.swift */; };
+		18CE11682BC8A690001C1016 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18CE11672BC8A690001C1016 /* GoogleService-Info.plist */; };
+		19487F774299DACAB6A0902F /* Pods_smallGaol_smallGaolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501E8796B397715B9E9BC544 /* Pods_smallGaol_smallGaolUITests.framework */; };
+		7C0B80575EBCA34C9D83CF86 /* Pods_smallGaolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6D9C26E5BB0568F3AB5052 /* Pods_smallGaolTests.framework */; };
+		BE3583658D529881AFC4230E /* Pods_smallGaol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EB7CA1ECB9563994D5A42B /* Pods_smallGaol.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1852AA332BAAED070022BD75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1852AA192BAAED060022BD75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1852AA202BAAED060022BD75;
+			remoteInfo = smallGaol;
+		};
+		1852AA3D2BAAED070022BD75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1852AA192BAAED060022BD75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1852AA202BAAED060022BD75;
+			remoteInfo = smallGaol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0069F99C4148EC2E191CFAF8 /* Pods-smallGaolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smallGaolTests.release.xcconfig"; path = "Target Support Files/Pods-smallGaolTests/Pods-smallGaolTests.release.xcconfig"; sourceTree = "<group>"; };
+		18236D572BBFE407009C6CEB /* ModalResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalResetView.swift; sourceTree = "<group>"; };
+		18236D592BC11885009C6CEB /* RewardAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardAdView.swift; sourceTree = "<group>"; };
+		18236D5B2BC118D8009C6CEB /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		18236D6F2BC19A5A009C6CEB /* interstitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interstitial.swift; sourceTree = "<group>"; };
+		18416DF82BDA882E000B980F /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		1842E8162BE0F25D00EB86D7 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		1852AA212BAAED060022BD75 /* smallGaol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smallGaol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1852AA242BAAED060022BD75 /* smallGaolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smallGaolApp.swift; sourceTree = "<group>"; };
+		1852AA262BAAED060022BD75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1852AA282BAAED070022BD75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1852AA2A2BAAED070022BD75 /* smallGaol.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = smallGaol.entitlements; sourceTree = "<group>"; };
+		1852AA2C2BAAED070022BD75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1852AA322BAAED070022BD75 /* smallGaolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smallGaolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1852AA362BAAED070022BD75 /* smallGaolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smallGaolTests.swift; sourceTree = "<group>"; };
+		1852AA3C2BAAED070022BD75 /* smallGaolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smallGaolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1852AA402BAAED070022BD75 /* smallGaolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smallGaolUITests.swift; sourceTree = "<group>"; };
+		1852AA422BAAED070022BD75 /* smallGaolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smallGaolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1852AA4F2BAAF4EE0022BD75 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		1852AA512BAAF5190022BD75 /* GoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewModel.swift; sourceTree = "<group>"; };
+		1896A1F92BAC460A0072F12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1896A1FA2BAC584B0072F12B /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
+		1896A2062BADA8BC0072F12B /* CompletedGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedGoalsView.swift; sourceTree = "<group>"; };
+		1896A2082BADB3D60072F12B /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		1896A20A2BAE7E180072F12B /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		1896A20E2BAE8B490072F12B /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		1896A2102BAE8B7F0072F12B /* TermsOfServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
+		1896A2122BAE8BAE0072F12B /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		1896A2142BAE96CF0072F12B /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		1896A2162BAEE17A0072F12B /* RewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
+		1896A2182BAEE3AC0072F12B /* AddRewardVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRewardVIew.swift; sourceTree = "<group>"; };
+		1896A21A2BAF163B0072F12B /* ModalRewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalRewardView.swift; sourceTree = "<group>"; };
+		1898ECD82BBC169F0085D467 /* HelpModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpModalView.swift; sourceTree = "<group>"; };
+		18CE11672BC8A690001C1016 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		45F8AFE8EEE3F217D1D9E15A /* Pods-smallGaolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smallGaolTests.debug.xcconfig"; path = "Target Support Files/Pods-smallGaolTests/Pods-smallGaolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		501E8796B397715B9E9BC544 /* Pods_smallGaol_smallGaolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smallGaol_smallGaolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5669B52F02484CDB84DEC427 /* Pods-smallGaol-smallGaolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smallGaol-smallGaolUITests.release.xcconfig"; path = "Target Support Files/Pods-smallGaol-smallGaolUITests/Pods-smallGaol-smallGaolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E5D2232FB72AEDF47093799 /* Pods-smallGaol-smallGaolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smallGaol-smallGaolUITests.debug.xcconfig"; path = "Target Support Files/Pods-smallGaol-smallGaolUITests/Pods-smallGaol-smallGaolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80EB7CA1ECB9563994D5A42B /* Pods_smallGaol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smallGaol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEDC2340EDBAC57C2DB6DF5 /* Pods-smallGaol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smallGaol.debug.xcconfig"; path = "Target Support Files/Pods-smallGaol/Pods-smallGaol.debug.xcconfig"; sourceTree = "<group>"; };
+		CFD0D9852F875A661559119A /* Pods-smallGaol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smallGaol.release.xcconfig"; path = "Target Support Files/Pods-smallGaol/Pods-smallGaol.release.xcconfig"; sourceTree = "<group>"; };
+		DF6D9C26E5BB0568F3AB5052 /* Pods_smallGaolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smallGaolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1852AA1E2BAAED060022BD75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3583658D529881AFC4230E /* Pods_smallGaol.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1852AA2F2BAAED070022BD75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C0B80575EBCA34C9D83CF86 /* Pods_smallGaolTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1852AA392BAAED070022BD75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19487F774299DACAB6A0902F /* Pods_smallGaol_smallGaolUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1852AA182BAAED060022BD75 = {
+			isa = PBXGroup;
+			children = (
+				1852AA232BAAED060022BD75 /* smallGaol */,
+				1852AA352BAAED070022BD75 /* smallGaolTests */,
+				1852AA3F2BAAED070022BD75 /* smallGaolUITests */,
+				1852AA222BAAED060022BD75 /* Products */,
+				9EADB4C32AF212E7E69CBC4B /* Pods */,
+				37E382F09C87B22793D87B33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1852AA222BAAED060022BD75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1852AA212BAAED060022BD75 /* smallGaol.app */,
+				1852AA322BAAED070022BD75 /* smallGaolTests.xctest */,
+				1852AA3C2BAAED070022BD75 /* smallGaolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1852AA232BAAED060022BD75 /* smallGaol */ = {
+			isa = PBXGroup;
+			children = (
+				1896A1F92BAC460A0072F12B /* Info.plist */,
+				1852AA242BAAED060022BD75 /* smallGaolApp.swift */,
+				1852AA4F2BAAF4EE0022BD75 /* GoalView.swift */,
+				1842E8162BE0F25D00EB86D7 /* ProgressBar.swift */,
+				18236D6F2BC19A5A009C6CEB /* interstitial.swift */,
+				18236D592BC11885009C6CEB /* RewardAdView.swift */,
+				18236D5B2BC118D8009C6CEB /* BannerView.swift */,
+				1898ECD82BBC169F0085D467 /* HelpModalView.swift */,
+				1896A20A2BAE7E180072F12B /* TopView.swift */,
+				1896A21A2BAF163B0072F12B /* ModalRewardView.swift */,
+				18236D572BBFE407009C6CEB /* ModalResetView.swift */,
+				1896A2142BAE96CF0072F12B /* ContactView.swift */,
+				1896A2162BAEE17A0072F12B /* RewardView.swift */,
+				1896A1FA2BAC584B0072F12B /* AddGoalView.swift */,
+				1896A2182BAEE3AC0072F12B /* AddRewardVIew.swift */,
+				1896A2082BADB3D60072F12B /* AuthManager.swift */,
+				1852AA512BAAF5190022BD75 /* GoalViewModel.swift */,
+				1896A2062BADA8BC0072F12B /* CompletedGoalsView.swift */,
+				18416DF82BDA882E000B980F /* CalendarView.swift */,
+				1852AA262BAAED060022BD75 /* ContentView.swift */,
+				1896A20E2BAE8B490072F12B /* SettingView.swift */,
+				1896A2102BAE8B7F0072F12B /* TermsOfServiceView.swift */,
+				1896A2122BAE8BAE0072F12B /* PrivacyView.swift */,
+				1852AA282BAAED070022BD75 /* Assets.xcassets */,
+				1852AA2A2BAAED070022BD75 /* smallGaol.entitlements */,
+				18CE11672BC8A690001C1016 /* GoogleService-Info.plist */,
+				1852AA2B2BAAED070022BD75 /* Preview Content */,
+			);
+			path = smallGaol;
+			sourceTree = "<group>";
+		};
+		1852AA2B2BAAED070022BD75 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1852AA2C2BAAED070022BD75 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1852AA352BAAED070022BD75 /* smallGaolTests */ = {
+			isa = PBXGroup;
+			children = (
+				1852AA362BAAED070022BD75 /* smallGaolTests.swift */,
+			);
+			path = smallGaolTests;
+			sourceTree = "<group>";
+		};
+		1852AA3F2BAAED070022BD75 /* smallGaolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1852AA402BAAED070022BD75 /* smallGaolUITests.swift */,
+				1852AA422BAAED070022BD75 /* smallGaolUITestsLaunchTests.swift */,
+			);
+			path = smallGaolUITests;
+			sourceTree = "<group>";
+		};
+		37E382F09C87B22793D87B33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80EB7CA1ECB9563994D5A42B /* Pods_smallGaol.framework */,
+				501E8796B397715B9E9BC544 /* Pods_smallGaol_smallGaolUITests.framework */,
+				DF6D9C26E5BB0568F3AB5052 /* Pods_smallGaolTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EADB4C32AF212E7E69CBC4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACEDC2340EDBAC57C2DB6DF5 /* Pods-smallGaol.debug.xcconfig */,
+				CFD0D9852F875A661559119A /* Pods-smallGaol.release.xcconfig */,
+				6E5D2232FB72AEDF47093799 /* Pods-smallGaol-smallGaolUITests.debug.xcconfig */,
+				5669B52F02484CDB84DEC427 /* Pods-smallGaol-smallGaolUITests.release.xcconfig */,
+				45F8AFE8EEE3F217D1D9E15A /* Pods-smallGaolTests.debug.xcconfig */,
+				0069F99C4148EC2E191CFAF8 /* Pods-smallGaolTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1852AA202BAAED060022BD75 /* smallGaol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1852AA462BAAED070022BD75 /* Build configuration list for PBXNativeTarget "smallGaol" */;
+			buildPhases = (
+				DA5E31D1C2052875DA253B76 /* [CP] Check Pods Manifest.lock */,
+				1852AA1D2BAAED060022BD75 /* Sources */,
+				1852AA1E2BAAED060022BD75 /* Frameworks */,
+				1852AA1F2BAAED060022BD75 /* Resources */,
+				85D98DBD32E6457F24258765 /* [CP] Embed Pods Frameworks */,
+				FF7A5F24A514B547CDAFD67B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smallGaol;
+			productName = smallGaol;
+			productReference = 1852AA212BAAED060022BD75 /* smallGaol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1852AA312BAAED070022BD75 /* smallGaolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1852AA492BAAED070022BD75 /* Build configuration list for PBXNativeTarget "smallGaolTests" */;
+			buildPhases = (
+				FDC6CB452D21FBA14BC7F6E3 /* [CP] Check Pods Manifest.lock */,
+				1852AA2E2BAAED070022BD75 /* Sources */,
+				1852AA2F2BAAED070022BD75 /* Frameworks */,
+				1852AA302BAAED070022BD75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1852AA342BAAED070022BD75 /* PBXTargetDependency */,
+			);
+			name = smallGaolTests;
+			productName = smallGaolTests;
+			productReference = 1852AA322BAAED070022BD75 /* smallGaolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1852AA3B2BAAED070022BD75 /* smallGaolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1852AA4C2BAAED070022BD75 /* Build configuration list for PBXNativeTarget "smallGaolUITests" */;
+			buildPhases = (
+				59B5922C63B6937DB0117AC4 /* [CP] Check Pods Manifest.lock */,
+				1852AA382BAAED070022BD75 /* Sources */,
+				1852AA392BAAED070022BD75 /* Frameworks */,
+				1852AA3A2BAAED070022BD75 /* Resources */,
+				F22E3696248F38E440B2969F /* [CP] Embed Pods Frameworks */,
+				B96621AEA09737CAF6477326 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1852AA3E2BAAED070022BD75 /* PBXTargetDependency */,
+			);
+			name = smallGaolUITests;
+			productName = smallGaolUITests;
+			productReference = 1852AA3C2BAAED070022BD75 /* smallGaolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1852AA192BAAED060022BD75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1852AA202BAAED060022BD75 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1852AA312BAAED070022BD75 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1852AA202BAAED060022BD75;
+					};
+					1852AA3B2BAAED070022BD75 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1852AA202BAAED060022BD75;
+					};
+				};
+			};
+			buildConfigurationList = 1852AA1C2BAAED060022BD75 /* Build configuration list for PBXProject "smallGaol" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1852AA182BAAED060022BD75;
+			productRefGroup = 1852AA222BAAED060022BD75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1852AA202BAAED060022BD75 /* smallGaol */,
+				1852AA312BAAED070022BD75 /* smallGaolTests */,
+				1852AA3B2BAAED070022BD75 /* smallGaolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1852AA1F2BAAED060022BD75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1852AA2D2BAAED070022BD75 /* Preview Assets.xcassets in Resources */,
+				1852AA292BAAED070022BD75 /* Assets.xcassets in Resources */,
+				18CE11682BC8A690001C1016 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1852AA302BAAED070022BD75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1852AA3A2BAAED070022BD75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59B5922C63B6937DB0117AC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smallGaol-smallGaolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85D98DBD32E6457F24258765 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smallGaol/Pods-smallGaol-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smallGaol/Pods-smallGaol-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smallGaol/Pods-smallGaol-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B96621AEA09737CAF6477326 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smallGaol-smallGaolUITests/Pods-smallGaol-smallGaolUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smallGaol-smallGaolUITests/Pods-smallGaol-smallGaolUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smallGaol-smallGaolUITests/Pods-smallGaol-smallGaolUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA5E31D1C2052875DA253B76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smallGaol-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F22E3696248F38E440B2969F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smallGaol-smallGaolUITests/Pods-smallGaol-smallGaolUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smallGaol-smallGaolUITests/Pods-smallGaol-smallGaolUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smallGaol-smallGaolUITests/Pods-smallGaol-smallGaolUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDC6CB452D21FBA14BC7F6E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smallGaolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF7A5F24A514B547CDAFD67B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smallGaol/Pods-smallGaol-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smallGaol/Pods-smallGaol-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smallGaol/Pods-smallGaol-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1852AA1D2BAAED060022BD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1852AA272BAAED060022BD75 /* ContentView.swift in Sources */,
+				18236D702BC19A5A009C6CEB /* interstitial.swift in Sources */,
+				18236D582BBFE407009C6CEB /* ModalResetView.swift in Sources */,
+				1896A2092BADB3D60072F12B /* AuthManager.swift in Sources */,
+				1852AA522BAAF5190022BD75 /* GoalViewModel.swift in Sources */,
+				1896A20F2BAE8B490072F12B /* SettingView.swift in Sources */,
+				1896A2132BAE8BAE0072F12B /* PrivacyView.swift in Sources */,
+				1852AA502BAAF4EE0022BD75 /* GoalView.swift in Sources */,
+				18416DF92BDA882E000B980F /* CalendarView.swift in Sources */,
+				1896A2112BAE8B7F0072F12B /* TermsOfServiceView.swift in Sources */,
+				1896A2152BAE96CF0072F12B /* ContactView.swift in Sources */,
+				1896A1FB2BAC584B0072F12B /* AddGoalView.swift in Sources */,
+				1842E8172BE0F25D00EB86D7 /* ProgressBar.swift in Sources */,
+				18236D5A2BC11885009C6CEB /* RewardAdView.swift in Sources */,
+				1852AA252BAAED060022BD75 /* smallGaolApp.swift in Sources */,
+				18236D5C2BC118D8009C6CEB /* BannerView.swift in Sources */,
+				1896A20B2BAE7E180072F12B /* TopView.swift in Sources */,
+				1896A2172BAEE17A0072F12B /* RewardView.swift in Sources */,
+				1896A2072BADA8BC0072F12B /* CompletedGoalsView.swift in Sources */,
+				1896A21B2BAF163B0072F12B /* ModalRewardView.swift in Sources */,
+				1896A2192BAEE3AC0072F12B /* AddRewardVIew.swift in Sources */,
+				1898ECD92BBC169F0085D467 /* HelpModalView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1852AA2E2BAAED070022BD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1852AA372BAAED070022BD75 /* smallGaolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1852AA382BAAED070022BD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1852AA412BAAED070022BD75 /* smallGaolUITests.swift in Sources */,
+				1852AA432BAAED070022BD75 /* smallGaolUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1852AA342BAAED070022BD75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1852AA202BAAED060022BD75 /* smallGaol */;
+			targetProxy = 1852AA332BAAED070022BD75 /* PBXContainerItemProxy */;
+		};
+		1852AA3E2BAAED070022BD75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1852AA202BAAED060022BD75 /* smallGaol */;
+			targetProxy = 1852AA3D2BAAED070022BD75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1852AA442BAAED070022BD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1852AA452BAAED070022BD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1852AA472BAAED070022BD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACEDC2340EDBAC57C2DB6DF5 /* Pods-smallGaol.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = smallGaol/smallGaol.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.1;
+				DEVELOPMENT_ASSET_PATHS = "\"smallGaol/Preview Content\"";
+				DEVELOPMENT_TEAM = F3XS565TSX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = smallGaol/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "シュウカン";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.smallGoal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1852AA482BAAED070022BD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD0D9852F875A661559119A /* Pods-smallGaol.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = smallGaol/smallGaol.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.1;
+				DEVELOPMENT_ASSET_PATHS = "\"smallGaol/Preview Content\"";
+				DEVELOPMENT_TEAM = F3XS565TSX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = smallGaol/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "シュウカン";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.smallGoal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1852AA4A2BAAED070022BD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F8AFE8EEE3F217D1D9E15A /* Pods-smallGaolTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3XS565TSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.smallGaolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smallGaol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/smallGaol";
+			};
+			name = Debug;
+		};
+		1852AA4B2BAAED070022BD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0069F99C4148EC2E191CFAF8 /* Pods-smallGaolTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3XS565TSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.smallGaolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smallGaol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/smallGaol";
+			};
+			name = Release;
+		};
+		1852AA4D2BAAED070022BD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E5D2232FB72AEDF47093799 /* Pods-smallGaol-smallGaolUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3XS565TSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.smallGaolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smallGaol;
+			};
+			name = Debug;
+		};
+		1852AA4E2BAAED070022BD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5669B52F02484CDB84DEC427 /* Pods-smallGaol-smallGaolUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3XS565TSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Swift-Beginners-app.smallGaolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smallGaol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1852AA1C2BAAED060022BD75 /* Build configuration list for PBXProject "smallGaol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1852AA442BAAED070022BD75 /* Debug */,
+				1852AA452BAAED070022BD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1852AA462BAAED070022BD75 /* Build configuration list for PBXNativeTarget "smallGaol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1852AA472BAAED070022BD75 /* Debug */,
+				1852AA482BAAED070022BD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1852AA492BAAED070022BD75 /* Build configuration list for PBXNativeTarget "smallGaolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1852AA4A2BAAED070022BD75 /* Debug */,
+				1852AA4B2BAAED070022BD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1852AA4C2BAAED070022BD75 /* Build configuration list for PBXNativeTarget "smallGaolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1852AA4D2BAAED070022BD75 /* Debug */,
+				1852AA4E2BAAED070022BD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1852AA192BAAED060022BD75 /* Project object */;
+}
